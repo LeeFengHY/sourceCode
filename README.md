@@ -33,6 +33,9 @@ NSString * __attribute__((overloadable)) sark(long x) { return @"long"; }
 }  
 @end  
 ```
+### 关于NSMapTable
+* [NSMapTable看这篇文章](http://www.jianshu.com/p/62d12b01be5c)
+
 ### 该主题会一直持续更新，记录自己漫漫学习路~！
 
 
