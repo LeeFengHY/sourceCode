@@ -5,7 +5,7 @@
 NSDictionary *attrs = [[NSFileManager defaultManager] attributesOfFileSystemForPath:NSHomeDirectory() error:&error];
 int64_t space =  [[attrs objectForKey:NSFileSystemFreeSize] longLongValue];
 ```
-### OC重载函数(方法名一样，参数不一样时候可用重载函数达到目的)
+### OC重载函数(方法名一样，参数不一样时候可用重载函数达到目的):关键字 `__attribute__((overloadable))`
 ```objc
 static inline __attribute__((overloadable)) int  Foo(int a , int b) {
     return a + b;
